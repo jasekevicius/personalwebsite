@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marco Prugno Siniscalchi</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet" />
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- AOS Animations -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      color: #333;
+      background-color: #f8f9fa;
+    }
+
+    .navbar {
+      background: rgba(0, 0, 0, 0.8);
+      backdrop-filter: blur(10px);
+      position: sticky;
+      top: 0;
+      z-index: 1020;
+      transition: background-color 0.3s ease;
+    }
+
+    .navbar .nav-link {
+      color: #fff !important;
+      font-weight: 600;
+    }
+
+    .logo-mp {
+  color: #007BFF;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.logo-s {
+  color: #6C757D;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 1;
+}
+
+.logo-text {
+  color: #6C757D;
+  font-weight: 400;
+  font-size: 0.9rem;
+  margin-left: 4px;
+  line-height: 1;
+}
+
+    .hero {
+      background: linear-gradient(135deg, #007BFF, #6C757D);
+      color: #fff;
+      padding: 100px 0;
+    }
+
+    .hero .highlight {
+      color: #00B4D8;
+      font-weight: bold;
+    }
+
+    .btn-primary {
+      background-color: #007BFF;
+      border: none;
+    }
+
+    .btn-outline-light:hover {
+      background-color: #fff;
+      color: #007BFF;
+    }
+
+    .section-title {
+      font-weight: 700;
+      color: #007BFF;
+      margin-bottom: 30px;
+    }
+
+    .card {
+      border: none;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    }
+
+    .highlight-box {
+      background-color: #e8f4f8;
+      border-left: 5px solid #007BFF;
+    }
+
+    footer {
+      background-color: #007BFF;
+    }
+
+    footer p {
+      color: #fff;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+      <img src="/static/assets/img/logo.png" alt="MPSS Logo" class="logo-img d-inline-block align-middle">
+    </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#servizi">Servizi</a></li>
+          <li class="nav-item"><a class="nav-link" href="#chi-sono">Chi sono</a></li>
+          <li class="nav-item"><a class="nav-link" href="#perche">Perché scegliermi</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contatti">Contatti</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero text-center">
+    <div class="container">
+      <h1 data-aos="fade-up">Non porto software, porto <span class="highlight">rinascita digitale</span> per la tua impresa.</h1>
+      <p data-aos="fade-up" data-aos-delay="200">Il tuo business dovrebbe funzionare anche mentre dormi. E con me, lo fa.</p>
+      <a href="#contatti" class="btn btn-primary m-2" data-aos="fade-up" data-aos-delay="400">Richiedi una consulenza gratuita</a>
+      <a href="#servizi" class="btn btn-outline-light m-2" data-aos="fade-up" data-aos-delay="600">Scopri i servizi</a>
+    </div>
+  </header>
+
+  <!-- Servizi -->
+  <section id="servizi" class="py-5">
+    <div class="container text-center">
+      <h2 class="section-title" data-aos="fade-up">Cosa faccio</h2>
+      <p class="mb-5" data-aos="fade-up" data-aos-delay="200">Soluzioni tecnologiche su misura per far crescere il tuo business.</p>
+      <div class="row">
+        <div class="col-md-4 mb-4" data-aos="fade-up">
+          <div class="card h-100">
+            <div class="card-body">
+				<div class="flex flex-col space-y-1.5 p-6"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-brain h-12 w-12 text-blue-600 mb-4"><path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"></path><path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z"></path><path d="M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4"></path><path d="M17.599 6.5a3 3 0 0 0 .399-1.375"></path><path d="M6.003 5.125A3 3 0 0 0 6.401 6.5"></path><path d="M3.477 10.896a4 4 0 0 1 .585-.396"></path><path d="M19.938 10.5a4 4 0 0 1 .585.396"></path><path d="M6 18a4 4 0 0 1-1.967-.516"></path><path d="M19.967 17.484A4 4 0 0 1 18 18"></path></svg><h3 class="tracking-tight text-xl font-bold text-navy-900">Software Gestionali &amp; CRM</h3></div>
+              <p class="card-text">Sistemi personalizzati per gestire clienti, fornitori, fatturazione e processi aziendali. Tutto in un'unica piattaforma.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="card h-100">
+            <div class="card-body">
+<div class="flex flex-col space-y-1.5 p-6"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-code h-12 w-12 text-green-600 mb-4"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg><h3 class="tracking-tight text-xl font-bold text-navy-900">Web App &amp; Siti Aziendali</h3></div>              
+              <p class="card-text">Presenza online professionale, responsive e ottimizzata per i motori di ricerca.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="400">
+          <div class="card h-100">
+            <div class="card-body">
+              <div class="flex flex-col space-y-1.5 p-6"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-smartphone h-12 w-12 text-purple-600 mb-4"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"></rect><path d="M12 18h.01"></path></svg><h3 class="tracking-tight text-xl font-bold text-navy-900">App Mobile</h3></div>
+              <p class="card-text">Applicazioni Android e iOS per attività locali. Loyalty program, prenotazioni e gestione clienti.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="600">
+          <div class="card h-100">
+            <div class="card-body">
+              <div class="flex flex-col space-y-1.5 p-6"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-cog h-12 w-12 text-orange-600 mb-4"><path d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16Z"></path><path d="M12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path><path d="M12 2v2"></path><path d="M12 22v-2"></path><path d="m17 20.66-1-1.73"></path><path d="M11 10.27 7 3.34"></path><path d="m20.66 17-1.73-1"></path><path d="m3.34 7 1.73 1"></path><path d="M14 12h8"></path><path d="M2 12h2"></path><path d="m20.66 7-1.73 1"></path><path d="m3.34 17 1.73-1"></path><path d="m17 3.34-1 1.73"></path><path d="m11 13.73-4 6.93"></path></svg><h3 class="tracking-tight text-xl font-bold text-navy-900">Automazione &amp; AI</h3></div>
+              <p class="card-text">Intelligenza artificiale per migliorare i processi aziendali. Chatbot, analisi dati e automazione workflow.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="800">
+          <div class="card h-100">
+            <div class="card-body">
+				<div class="flex flex-col space-y-1.5 p-6"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap h-12 w-12 text-yellow-600 mb-4"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path></svg><h3 class="tracking-tight text-xl font-bold text-navy-900">Integrazione API</h3></div>
+              <p class="card-text">Connetto i software per farli comunicare. Zero duplicazioni, dati sincronizzati al 100%.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="1000">
+          <div class="card h-100">
+            <div class="card-body">
+				<div class="flex flex-col space-y-1.5 p-6"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield h-12 w-12 text-red-600 mb-4"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path></svg><h3 class="tracking-tight text-xl font-bold text-navy-900">Manutenzione &amp; Supporto</h3></div>
+              <p class="card-text">Assistenza continua, aggiornamenti e ottimizzazioni. Il tuo sistema sempre performante e sicuro.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Chi sono -->
+  <section id="chi-sono" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="section-title text-center mb-4" data-aos="fade-up">Chi sono</h2>
+      <p class="lead text-center mb-4" data-aos="fade-up" data-aos-delay="200">
+        Sono <strong>Marco Prugno Siniscalchi</strong>, ingegnere informatico laureato magistrale con una passione per le soluzioni digitali ad alto valore tecnologico.
+      </p>
+      <p class="text-center mb-4" data-aos="fade-up" data-aos-delay="400">
+        Mi specializzo nello sviluppo di <strong>software su misura</strong> per PMI, startup e software house, con competenze verticali in intelligenza artificiale, sviluppo web e mobile. 
+      </p>
+	  <p class="text-center mb-4" data-aos="fade-up" data-aos-delay="400">
+        Il mio approccio è orientato alla <strong>qualità</strong> del codice, alla <strong>scalabilità</strong> e alle soluzioni <strong>mantenibili</strong>. Lavoro sia come sviluppatore end-to-end che come specialista integrato in team esistenti.
+      </p>
+      <div class="text-center" data-aos="fade-up" data-aos-delay="600">
+        <h5>Competenze Tecniche</h5>
+        <ul class="list-inline">
+          <li class="list-inline-item badge bg-primary m-1">Intelligenza Artificiale Generative</li>
+          <li class="list-inline-item badge bg-secondary m-1">Sviluppo Web & Mobile</li>
+          <li class="list-inline-item badge bg-info text-dark m-1">Integrazione API</li>
+          <li class="list-inline-item badge bg-success m-1">Machine & Deep Learning</li>
+          <li class="list-inline-item badge bg-warning text-dark m-1">Automazione ed Ottimizzazione dei Processi</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Perché scegliermi -->
+  <section id="perche" class="py-5">
+    <div class="container text-center">
+      <h2 class="section-title" data-aos="fade-up">Perché scegliermi</h2>
+      <div class="row mt-4">
+        <div class="col-md-4" data-aos="fade-up">
+			<div class="mx-auto w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-target h-8 w-8 text-blue-600"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg></div>
+          <h5>Approccio Personalizzato</h5>
+          <p>Ogni progetto è unico. Analizzo le tue esigenze e creo soluzioni su misura.</p>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+			<div class="mx-auto w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-4"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users h-8 w-8 text-green-600"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg></div>
+          <h5>Flessibilità di Collaborazione</h5>
+          <p>Lavoro sia come sviluppatore unico sia integrato nel tuo team.</p>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+			<div class="mx-auto w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-4"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-brain h-8 w-8 text-purple-600"><path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"></path><path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z"></path><path d="M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4"></path><path d="M17.599 6.5a3 3 0 0 0 .399-1.375"></path><path d="M6.003 5.125A3 3 0 0 0 6.401 6.5"></path><path d="M3.477 10.896a4 4 0 0 1 .585-.396"></path><path d="M19.938 10.5a4 4 0 0 1 .585.396"></path><path d="M6 18a4 4 0 0 1-1.967-.516"></path><path d="M19.967 17.484A4 4 0 0 1 18 18"></path></svg></div>
+          <h5>Competenze Avanzate</h5>
+          <p>Background tecnico solido con focus su AI, automazione e tecnologie moderne.</p>
+        </div>
+      </div>
+      <div class="highlight-box mt-5 p-4" data-aos="fade-up" data-aos-delay="600">
+        <h5>Far parlare i tuoi software tra loro è come avere un interprete universale</h5>
+        <p>Immagina un assistente che traduce automaticamente tra tutti i tuoi sistemi, eliminando errori e duplicazioni. È esattamente quello che faccio con le integrazioni API.</p>
+        <ul class="list-inline mt-3">
+          <li class="list-inline-item"><strong> Riduzione</strong> errori</li>
+          <li class="list-inline-item"><strong>Tempo risparmiato</strong> settimanalmente</li>
+          <li class="list-inline-item"><strong>100%</strong> Dati sincronizzati</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Prezzi -->
+  <section id="prezzi" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="section-title text-center" data-aos="fade-up">Prezzi e modalità di lavoro</h2>
+      <div class="row mt-4">
+        <div class="col-md-4 mb-4" data-aos="fade-up">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5>A Progetto</h5>
+              <ul>
+                <li>Preventivo fisso concordato</li>
+                <li>Milestone di pagamento</li>
+                <li>Consegna nei tempi stabiliti</li>
+                <li>Garanzia post-consegna</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5>Tariffa Oraria</h5>
+              <ul>
+                <li>Pagamento per ore effettive</li>
+                <li>Adatto per consulenze</li>
+                <li>Modifiche in corso d'opera</li>
+                <li>Rendicontazione dettagliata</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="400">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5>Abbonamento</h5>
+              <ul>
+                <li>Manutenzione continua</li>
+                <li>Aggiornamenti regolari</li>
+                <li>Supporto prioritario</li>
+                <li>Costi prevedibili</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="alert alert-info mt-4 px-4 py-4 rounded-3 shadow-sm" data-aos="fade-up" data-aos-delay="600">
+  <h5 class="text-primary fw-bold mb-3">
+    <i class="bi bi-question-circle me-2"></i>Perché non trovi i prezzi sul sito?
+  </h5>
+  <p class="mb-3">
+    Ogni progetto è unico e personalizzato. I prezzi dipendono da complessità, funzionalità e integrazioni necessarie.
+  </p>
+
+  <div class="row">
+    <div class="col-md-6">
+      <h6 class="text-secondary fw-bold mb-2">
+        <i class="bi bi-gear me-2"></i>Fattori che influenzano il prezzo:
+      </h6>
+      <ul class="list-unstyled">
+        <li class="mb-1"><i class="bi bi-check-circle text-primary me-2"></i>Numero di funzionalità</li>
+        <li class="mb-1"><i class="bi bi-check-circle text-primary me-2"></i>Integrazioni con sistemi esistenti</li>
+        <li class="mb-1"><i class="bi bi-check-circle text-primary me-2"></i>Design personalizzato</li>
+        <li class="mb-1"><i class="bi bi-check-circle text-primary me-2"></i>Complessità tecnica</li>
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <h6 class="text-secondary fw-bold mb-2">
+        <i class="bi bi-star me-2"></i>Quello che ottieni sempre:
+      </h6>
+      <ul class="list-unstyled">
+        <li class="mb-1"><i class="bi bi-check-circle-fill text-success me-2"></i>Preventivo dettagliato e trasparente</li>
+        <li class="mb-1"><i class="bi bi-check-circle-fill text-success me-2"></i>Consulenza gratuita iniziale</li>
+        <li class="mb-1"><i class="bi bi-check-circle-fill text-success me-2"></i>Nessun costo nascosto</li>
+        <li class="mb-1"><i class="bi bi-check-circle-fill text-success me-2"></i>Garanzia di qualità</li>
+      </ul>
+    </div>
+  </div>
+</div>
+    </div>
+  </section>
+
+  <!-- Contatti -->
+  <section id="contatti" class="py-5">
+    <div class="container py-5">
+  <h2 class="section-title text-center mb-4" data-aos="fade-up">Parliamo del tuo progetto</h2>
+  <h5 class="text-center mb-4" data-aos="fade-up" data-aos-delay="200">
+    Compila il modulo per ricevere una consulenza personalizzata gratuita.
+    Ti risponderò entro 24 ore con una proposta su misura.
+  </h5>
+
+  <div class="ratio ratio-4x3" data-aos="fade-up" data-aos-delay="200">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSflhuJeeIbPtcu93vX2kjuGRQ9oGCS6q47-hSfobmOi-DjomQ/viewform?embedded=true" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
+  </section>
+
+  <footer class="py-4 text-center">
+    <p class="mb-0">&copy; 2025 Marco Prugno Siniscalchi</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,
+      easing: 'ease-out-quart'
+    });
+
+    const form = document.getElementById('contactForm');
+    if(form){
+      form.addEventListener('submit', e => {
+        e.preventDefault();
+        alert("Grazie! Ti risponderò entro 24 ore.");
+        form.reset();
+      });
+    }
+  </script>
+</body>
+</html>
